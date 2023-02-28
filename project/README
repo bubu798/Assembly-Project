@@ -1,10 +1,3 @@
-Salut! Codul are comentarii, destul de explicite dupa parerea mea dar fac si un readme pentru a fi mai explicit.
-Fac asta pentru ca nu-mi permit sa pierd nici macar un punct din cele 45 pe care le-am luat din teste
-din cauza unei neintelegeri la tema2. O sa pun aici functiile in C a ce am scris(pentru ca eu asa procedez, 
-scriu codul in C, il testez si dupa il traduc manual in asm. Exact la fel functioneaza si codurile in asm ca
-acestea de mai jos, asa ca explicandu-le pe acestea explic si ce e in asm. Repet, vor fi comentarii si in codul din asm.
-
-Task2.
 
 int cmmmc(int a, int b) {
     int r, x = a, y = b;
@@ -34,7 +27,7 @@ Aceasta este functia cu parantezele. Trece prin fiecare caracter si creste varia
 si o scade daca e inchisa. Daca decider e 0 returneaza 1, altfel returneaza 0. De asemenea daca gaseste paranteza inchisa
 si decider este deja pe 0 iese din for si returneaza 0.
 
-Task bonus_64bit
+task3_64bit
 
  void inter(int *v1, int n1, int *v2, int n2, int *v) {
     v = (int*) malloc((n1 + n2) * sizeof(int));
@@ -66,5 +59,4 @@ forului. Primul if din for verifica daca s a terminat primul vector caz in care 
 Al doilea if verifica acelasi lucru doar ca pentru al doilea vector. In cazul in care nu intra in aceste 2 if-uri, se ia cate un element 
 din ambii vectori si se pun pe rand in v.
 
-La bonus_cpuid nu am cod in C, am explicat acolo cum functioneaza fiecare functie. 
-Repet, chiar nu-mi permit sa pierd vreun punct la redactare, sper ca am fost cat de cat explicit si se intelege codul.
+La task4_cpuid nu am cod in C, am explicat in comentarii cum functioneaza fiecare functie. 
